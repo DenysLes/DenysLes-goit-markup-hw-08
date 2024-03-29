@@ -865,12 +865,19 @@ path {
 @media screen and (min-width: 480px) {
   .our-activity__items {
     width: 450px;
+    margin-bottom: 30px;
+  }
+  .our-activity__items:last-child {
+    margin-bottom: 0;
   }
 }
 @media screen and (min-width: 768px) {
   .our-activity__items {
     width: calc((100% - 60px) / 2);
     margin: 15px;
+  }
+  .our-activity__items:last-child {
+    margin-bottom: 15px;
   }
 }
 
@@ -1056,56 +1063,108 @@ path {
   background: rgba(47, 48, 58, 0.8);
 }
 
-.team {
-  padding-top: 94px;
+@media screen and (min-width: 480px) {
+  .team {
+    width: 480px;
+    padding-bottom: 60px;
+    background: var(--secondary-bg-color);
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .team {
+    width: 768px;
+    background: var(--secondary-bg-color);
+    padding-bottom: 60px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
-.team-name {
-  margin-bottom: 10px;
+@media screen and (min-width: 480px) {
+  .team__title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    margin-bottom: 30px;
+  }
 }
 
-.team-proffesion {
-  margin-bottom: 16px;
+@media screen and (min-width: 480px) {
+  .team__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .team__list {
+    width: 768px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: -15px;
+  }
 }
 
-.team__title {
-  text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 1.08px;
-  margin-bottom: 50px;
+@media screen and (min-width: 480px) {
+  .team__team-members {
+    border-radius: 0 0 4px 4px;
+    width: 270px;
+    -webkit-box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+            box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+    background: #fff;
+    margin-bottom: 30px;
+  }
+  .team__team-members:last-child {
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .team__team-members {
+    border-radius: 0 0 4px 4px;
+    width: calc((100% - 60px) / 2);
+    margin: 15px;
+    -webkit-box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+            box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+    background: #fff;
+  }
+  .team__team-members:last-child {
+    margin-bottom: 15px;
+  }
 }
 
-.team__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.team__team-members {
-  border-radius: 0 0 4px 4px;
-  width: 270px;
-  -webkit-box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
-          box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
-  background: #fff;
-  margin-right: 30px;
+@media screen and (min-width: 768px) {
+  .team__img {
+    width: 354px;
+    height: 374px;
+  }
 }
 
 .team__team-members-info {
   padding-bottom: 30px;
   padding-top: 30px;
-}
-
-.team__team-members:last-child {
-  margin-right: 0;
-}
-
-.team {
-  background: var(--secondary-bg-color);
 }
 
 .team__product-designer-name {
@@ -1165,7 +1224,7 @@ path {
   letter-spacing: 0.48px;
 }
 
-.team__ul-designer-profession {
+.tem__ul-designer-profession {
   color: var(--secondary-text-color);
   text-align: center;
   font-size: 16px;
