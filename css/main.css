@@ -1010,6 +1010,17 @@ path {
           justify-content: center;
 }
 
+@media screen and (min-width: 480px) {
+  .our-activity-images {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .our-activity-images {
+    display: none;
+  }
+}
+
 .our-activity-images__img-box {
   z-index: 1;
   position: relative;

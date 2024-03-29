@@ -2,6 +2,14 @@
     display: flex;
     justify-content: center;
 }
+.our-activity-images{
+@media screen and (min-width:480px) {   
+display: none;
+} 
+@media screen and (min-width:768px) {   
+display: none;
+ } 
+}
 
 .our-activity-images__img-box {
     z-index: 1;
