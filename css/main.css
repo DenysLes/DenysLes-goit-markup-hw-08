@@ -1720,6 +1720,13 @@ path {
   }
 }
 
+.menu-container .menu-toggle {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  color: inherit;
+}
+
 .menu-container__nav {
   text-decoration: none;
 }
