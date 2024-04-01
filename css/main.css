@@ -404,6 +404,11 @@ img {
     background-color: var(--dark-bg-color);
   }
 }
+@media screen and (min-width: 480px) and (min-device-pixel-ratio: 2), screen and (min-width: 480px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 480px) and (min-resolution: 192dpi), screen and (min-width: 480px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../images/Hero/img\ overlay480px.png), url(../images/Hero/Header\ img480px@2x.jpg);
+  }
+}
 @media screen and (min-width: 768px) {
   .hero {
     width: 768px;

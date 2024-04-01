@@ -1,5 +1,5 @@
 .hero {
-  @media screen and (min-width: 480px) {
+  @include mq(mobile) {
     width: 480px;
     height: 400px;
     margin-left: auto;
@@ -9,6 +9,13 @@
       url(../images/Hero/Header\ img480px.jpg);
 
     background-color: var(--dark-bg-color);
+    // @media (min-device-pixel-ratio: 2),
+    //   (min-resolution: 192dpi),
+    //   (min-resolution: 2dppx) {
+    @include mq(retina) {
+      background-image: url(../images/Hero/img\ overlay480px.png),
+        url(../images/Hero/Header\ img480px@2x.jpg);
+    }
   }
   @media screen and (min-width: 768px) {
     width: 768px;
