@@ -63,6 +63,19 @@ body {
   }
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 :root {
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
@@ -1267,7 +1280,7 @@ path {
 @media screen and (min-width: 480px) {
   .team__team-members {
     border-radius: 0 0 4px 4px;
-    width: 270px;
+    width: 450px;
     -webkit-box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
             box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
     background: #fff;
@@ -1291,6 +1304,12 @@ path {
   }
 }
 
+@media screen and (min-width: 480px) {
+  .team__img {
+    width: 450px;
+    height: 460px;
+  }
+}
 @media screen and (min-width: 768px) {
   .team__img {
     width: 354px;
