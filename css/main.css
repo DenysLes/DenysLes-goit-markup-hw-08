@@ -2028,6 +2028,11 @@ path {
   border: none;
   border-radius: 50%;
   outline: none;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.menu-toggle:hover path, .menu-toggle:focus path {
+  fill: var(--accent-color);
 }
 @media (min-width: 768px) {
   .menu-toggle {
@@ -2056,7 +2061,12 @@ path {
   font-size: 40px;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   text-decoration: none;
+}
+.menu-container__link-nav:hover, .menu-container__link-nav:focus {
+  color: var(--accent-color);
 }
 
 .menu-container__contacts {
@@ -2105,8 +2115,8 @@ path {
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 45%;
+  left: 100%;
 }
 
 .menu-container__link-social {
