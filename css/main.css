@@ -1587,6 +1587,13 @@ path {
     width: 768px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .footer {
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
 @media screen and (min-width: 480px) {
   .footer-container {
@@ -1621,6 +1628,19 @@ path {
             justify-content: center;
   }
 }
+@media screen and (min-width: 1200px) {
+  .footer-container {
+    width: 1200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
 @media screen and (min-width: 480px) {
   .footer-main-container {
@@ -1642,6 +1662,19 @@ path {
 @media screen and (min-width: 768px) {
   .footer-main-container {
     margin-right: 165px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-main-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    width: 231px;
+    margin-right: 70px;
+    margin-bottom: 0;
   }
 }
 
@@ -1677,15 +1710,23 @@ path {
     text-align: center;
   }
 }
+@media screen and (min-width: 1200px) {
+  .address__footer-text {
+    text-align: left;
+  }
+}
 
 .address__footer-contacts {
   text-align: left;
 }
 @media screen and (min-width: 480px) {
   .address__footer-contacts {
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .address__footer-contacts {
+    text-align: left;
   }
 }
 
@@ -1716,6 +1757,19 @@ path {
   color: var(--accent-color);
 }
 
+@media screen and (min-width: 1200px) {
+  .footer-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    width: 206px;
+    margin-right: 93px;
+    margin-bottom: 0;
+  }
+}
 @media screen and (min-width: 480px) {
   .footer-icons {
     margin-bottom: 60px;
@@ -1787,9 +1841,14 @@ path {
   background-color: var(--accent-color);
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 1200px) {
   .footer-form {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 570px;
   }
 }
 
