@@ -16,11 +16,15 @@
 }
 
 .team-name {
-  // margin-bottom: 10px;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 10px;
+  }
 }
 
 .team-proffesion {
-  // margin-bottom: 16px;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 16px;
+  }
 }
 
 .team__title {
@@ -102,7 +106,7 @@
     width: 354px;
     height: 374px;
   }
-  @media screen and (min-width: 1200x) {
+  @media screen and (min-width: 1200px) {
     width: 270px;
     height: 260px;
   }

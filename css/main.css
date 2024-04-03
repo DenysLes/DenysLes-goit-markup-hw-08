@@ -1344,6 +1344,18 @@ path {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .team-name {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .team-proffesion {
+    margin-bottom: 16px;
+  }
+}
+
 .team__title {
   text-align: center;
   font-size: 36px;
@@ -1455,7 +1467,7 @@ path {
     height: 374px;
   }
 }
-@media screen and (min-width: 1200x) {
+@media screen and (min-width: 1200px) {
   .team__img {
     width: 270px;
     height: 260px;
