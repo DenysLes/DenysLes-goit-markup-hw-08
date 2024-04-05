@@ -1,4 +1,5 @@
 .hero {
+  background-color: var(--dark-bg-color);
   @include mq(mobile) {
     width: 480px;
     height: 400px;
@@ -8,20 +9,15 @@
     background-image: url(../images/Hero/img\ overlay480px.png),
       url(../images/Hero/Header\ img480px.jpg);
 
-    background-color: var(--dark-bg-color);
-    // @media (min-device-pixel-ratio: 2),
-    //   (min-resolution: 192dpi),
-    //   (min-resolution: 2dppx) {
     @include mq(retina) {
       background-image: url(../images/Hero/img\ overlay480px.png),
         url(../images/Hero/Header\ img480px@2x.jpg);
     }
   }
+
   @include mq(tablet) {
     width: 768px;
     height: 400px;
-    margin-left: auto;
-    margin-right: auto;
 
     background-image: url(../images/Hero/img\ overlay768px.png),
       url(../images/Hero/Header\ img768px.jpg);
@@ -35,8 +31,7 @@
   @include mq(desktop) {
     width: 1600px;
     height: 600px;
-    margin-left: auto;
-    margin-right: auto;
+
     background-image: url(../images/Hero/Img\ Overlay.png),
       url(../images/Hero/bg-hero.jpg);
 
