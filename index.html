@@ -207,7 +207,7 @@
 
       <!--Our activity  -->
 
- <section class="our-activity section">
+      <section class="our-activity section">
         <div class="container">
           <ul class="our-activity__list">
             <li class="our-activity__items">
@@ -228,7 +228,7 @@
                   <use href="./images/sprite.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="our-activity__punctuality-item"">ПУНКТУАЛЬНІСТЬ</h3>
+              <h3 class="our-activity__punctuality-item">ПУНКТУАЛЬНІСТЬ</h3>
               <p class="our-activity__punctuality-text">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
@@ -259,10 +259,10 @@
             </li>
           </ul>
         </div>
-      </section>      
+      </section>
 
       <!-- Activity-images -->
-  <section class="our-activity-images section">
+      <section class="our-activity-images section">
         <div class="our-activity-block container">
           <h2 class="our-activity-images__title">Чим ми займаємося</h2>
           <ul class="our-activity-images__images">
@@ -295,29 +295,51 @@
             </li>
           </ul>
         </div>
-      </section> 
+      </section>
 
       <!--Our Team  -->
-<section class="team section">
+      <section class="team section">
         <div class="container">
           <h2 class="team__title">Наша команда</h2>
           <ul class="team__list">
             <li class="team__team-members">
-              <img
-                class="team__img"
-                srcset="
-                  images/team/ІгорДем'яненко-270.jpg 270w,
-                  images/team/ІгорДем'яненко-354.jpg 354w,
-                  images/team/ІгорДем'яненко-450.jpg 450w,
-                  images/team/ІгорДем'яненко-540.jpg 540w,
-                  images/team/ІгорДем'яненко-708.jpg 708w,
-                  images/team/ІгорДем'яненко-900.jpg 900w
-                "
-                sizes="(mim-width:1200) 270px, (min-width:768)
-                354px, (max-width:480px) 450px, 100vw"
-                src="./images/team/ІгорДем'яненко-450.jpg "
-                alt="Ігор Дем'яненко"
-              />
+              <picture>
+                <source
+                  media="(mim-width: 1200px)"
+                  srcset="
+                    ./images/team/photo1l.jpg    1x,
+                    ./images/team/photo1l@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+
+                <source
+                  media="(mim-width: 768px)"
+                  srcset="
+                    ./images/team/photo1m.jpg    1x,
+                    ./images/team/photo1m@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+
+                <source
+                  media="(mim-width: 480px)"
+                  srcset="
+                    ./images/team/photo1s.jpg    1x,
+                    ./images/team/photo1s@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+
+                <img
+                  class="team__img"
+                  src="./images/team/photo1s.jpg"
+                  alt="team-member"
+                  width="450"
+                  height="460"
+                />
+              </picture>
+
               <div class="team__team-members-info">
                 <h3 class="team__product-designer-name team-name">
                   Ігор Дем'яненко
@@ -402,21 +424,43 @@
               </div>
             </li>
             <li class="team__team-members">
-              <img
-                class="team__img"
-                srcset="
-                  images/team/ОльгаРєпіна-270.jpg 270w,
-                  images/team/ОльгаРєпіна-354.jpg 354w,
-                  images/team/ОльгаРєпіна-450.jpg 450w,
-                  images/team/ОльгаРєпіна-540.jpg 540w,
-                  images/team/ОльгаРєпіна-708.jpg 708w,
-                  images/team/ОльгаРєпіна-900.jpg 900w
-                "
-                sizes="(mim-width:1200) 270px, (min-width:768)
-                354px, (max-width:480px) 450px, 100vw"
-                src="./images/team/ОльгаРєпіна-450.jpg "
-                alt="Ольга Рєпіна"
-              />
+              <picture>
+                <source
+                  media="(mim-width:1200px)"
+                  srcset="
+                    ./images/team/photo2l.jpg    1x,
+                    ./images/team/photo2l@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+
+                <source
+                  media="(mim-width:768px)"
+                  srcset="
+                    ./images/team/photo2m.jpg    1x,
+                    ./images/team/photo2m@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+
+                <source
+                  media="(mim-width:480px)"
+                  srcset="
+                    ./images/team/photo2s.jpg    1x,
+                    ./images/team/photo2s@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+
+                <img
+                  class="team__img"
+                  src="./images/team/photo2s.jpg"
+                  alt="team-member"
+                  width="450"
+                  height="460"
+                />
+              </picture>
+
               <div class="team__team-members-info">
                 <h3 class="team__frontend-developer-name team-name">
                   Ольга Рєпіна
@@ -500,21 +544,43 @@
               </div>
             </li>
             <li class="team__team-members">
-              <img
-                class="team__img"
-                srcset="
-                  images/team/МиколаТарасов-270.jpg 270w,
-                  images/team/МиколаТарасов-354.jpg 354w,
-                  images/team/МиколаТарасов-450.jpg 450w,
-                  images/team/МиколаТарасов-540.jpg 540w,
-                  images/team/МиколаТарасов-708.jpg 708w,
-                  images/team/МиколаТарасов-900.jpg 900w
-                "
-                sizes="(mim-width:1200) 270px, (min-width:768)
-                354px, (mim-width:480px) 450px, 100vw"
-                src="./images/team/МиколаТарасов-450.jpg "
-                alt="Микола Тарасов"
-              />
+              <picture>
+                <source
+                  media="(mim-width:1200px)"
+                  srcset="
+                    ./images/team/photo3l.jpg    1x,
+                    ./images/team/photo3l@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+
+                <source
+                  media="(mim-width:768px)"
+                  srcset="
+                    ./images/team/photo3m.jpg    1x,
+                    ./images/team/photo3m@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+
+                <source
+                  media="(mim-width:480px)"
+                  srcset="
+                    ./images/team/photo3s.jpg    1x,
+                    ./images/team/photo3s@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+
+                <img
+                  class="team__img"
+                  src="./images/team/photo3s.jpg"
+                  alt="team-member"
+                  width="450"
+                  height="460"
+                />
+              </picture>
+
               <div class="team__team-members-info">
                 <h3 class="team__marketing-name team-name">Микола Тарасов</h3>
                 <p class="team__marketing-profession team-proffesion">
@@ -597,23 +663,43 @@
               </div>
             </li>
             <li class="team__team-members">
-              <img
-                class="team__img"
-                srcset="
-                  images/team/МихайлоЄрмаков-270.jpg 270w,
-                  images/team/МихайлоЄрмаков-354.jpg 354w
-                  images/team/МихайлоЄрмаков-450.jpg 450w,
-                  images/team/МихайлоЄрмаков-540.jpg 540w
-                  images/team/МихайлоЄрмаков-708.jpg 708w,
-                  images/team/МихайлоЄрмаков-900.jpg 900w
-                "
-                sizes="(mim-width:1200px) 270px, (min-width:768px)
-                354px, (min-width:480px) 450px, 100vw"
-                src="./images/team/МихайлоЄрмаков-450.jpg "
-                alt="Михайло Єрмаков"
-                width="450"
-                height="460"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/team/photo4l.jpg    1x,
+                    ./images/team/photo4l@2x.jpg 2x
+                  "
+                  media="(mim-width:1200px)"
+                  type="image/jpeg"
+                />
+
+                <source
+                  media="(mim-width:768px)"
+                  srcset="
+                    ./images/team/photo4m.jpg    1x,
+                    ./images/team/photo4m@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+
+                <source
+                  media="(mim-width:480px)"
+                  srcset="
+                    ./images/team/photo4s.jpg    1x,
+                    ./images/team/photo4s@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+
+                <img
+                  class="team__img"
+                  src="./images/team/photo4s.jpg"
+                  alt="team-member"
+                  width="450"
+                  height="460"
+                />
+              </picture>
+
               <div class="team__team-members-info">
                 <h3 class="team__ul-designer-name team-name">
                   Михайло Єрмаков
@@ -698,10 +784,10 @@
             </li>
           </ul>
         </div>
-      </section> 
+      </section>
 
       <!-- Regular customers -->
- <section class="regular-customers section">
+      <section class="regular-customers section">
         <div class="container">
           <h2 class="regular-customers__titel">Постійні клієнти</h2>
           <ul class="regular-customers__icon-list">
@@ -827,12 +913,12 @@
             </li>
           </ul>
         </div>
-      </section> 
+      </section>
     </main>
 
     <!-- Footer -->
 
-  <footer class="footer">
+    <footer class="footer">
       <div class="footer-container container">
         <div class="footer-main-container footer-blok">
           <a class="logo-footer" href="./index.html"
@@ -968,10 +1054,10 @@
           </form>
         </div>
       </div>
-    </footer> 
+    </footer>
 
     <!-- mobile-menu -->
- <div class="menu-container js-menu-container" id="mobile-menu">
+    <div class="menu-container js-menu-container" id="mobile-menu">
       <button class="menu-toggle js-close-menu">
         <svg
           fill="currentColor"
@@ -1031,7 +1117,7 @@
           <a class="menu-container__link-social" href="">LinkedIn</a>
         </li>
       </ul>
-    </div>  
+    </div>
     <!-- Modal script -->
     <script src="./js/modal.js"></script>
 
