@@ -267,21 +267,43 @@
           <h2 class="our-activity-images__title">Чим ми займаємося</h2>
           <ul class="our-activity-images__images">
             <li class="our-activity-images__img-box">
-              <img
-                src="./images/activity/img1.jpg"
-                alt="img1"
-                width="370"
-                height="294"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/activity/img1.jpg    1x,
+                    ./images/activity/img1@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+
+                <img
+                  src="./images/activity/img1.jpg"
+                  alt="actyvity img"
+                  width="370"
+                  height="294"
+                />
+              </picture>
               <p class="our-activity-images__label">Десктопні додатки</p>
             </li>
             <li class="our-activity-images__img-box">
-              <img
-                src="./images/activity/img2.jpg"
-                alt="img2"
-                width="370"
-                height="294"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/activity/img2.jpg    1x,
+                    ./images/activity/img2@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+
+                <img
+                  src="./images/activity/img2.jpg"
+                  alt="actyvity img"
+                  width="370"
+                  height="294"
+                />
+              </picture>
               <p class="our-activity-images__label">Мобільні додатки</p>
             </li>
             <li class="our-activity-images__img-box">
@@ -295,12 +317,8 @@
                   type="image/jpeg"
                 />
 
-                <img
-                  src="./images/activity/img3.jpg"
-                  alt="actyvity"
-                  width="370"
-                  height="294"
-                />
+                <img src="./images/activity/img3.jpg1 alt="actyvity img"
+                width="370" height="294" />
               </picture>
 
               <p class="our-activity-images__label">Дизайнерські рішення</p>
