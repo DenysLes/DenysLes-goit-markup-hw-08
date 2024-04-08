@@ -2,6 +2,11 @@
   background: var(--secondary-bg-color);
   margin-right: auto;
   margin-left: auto;
+  @media screen and (max-width: 479px) {
+    padding: 0 15px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
   @media screen and (min-width: 480px) {
     width: 480px;
     padding-bottom: 60px;
@@ -33,6 +38,9 @@
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1.08px;
+  @media screen and (max-width: 479px) {
+    margin-bottom: 30px;
+  }
 
   @media screen and (min-width: 480px) {
     margin-bottom: 30px;
@@ -43,6 +51,12 @@
 }
 
 .team__list {
+  @media screen and (max-width: 479px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   @media screen and (min-width: 480px) {
     display: flex;
     flex-wrap: nowrap;
@@ -72,6 +86,12 @@
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
     0 1px 3px 0 rgba(0, 0, 0, 0.12);
   background: #fff;
+  @media screen and (max-width: 479px) {
+    margin-bottom: 30px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
 
   @media screen and (min-width: 480px) {
     width: 450px;
