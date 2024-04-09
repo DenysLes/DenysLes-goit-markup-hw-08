@@ -641,6 +641,12 @@ img {
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+@media screen and (min-width: 480px) {
+  .modal-wrapper {
+    width: 450px;
+    height: 609px;
+  }
+}
 
 .modal-wrapper.is-hidden {
   -webkit-transition: opacity 300ms ease-in-out 200ms, -webkit-transform 300ms ease-in-out 200ms;
@@ -704,6 +710,12 @@ path {
           box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
   background: #fff;
 }
+@media screen and (min-width: 480px) {
+  .form {
+    width: 450px;
+    height: 609px;
+  }
+}
 
 .form-titel {
   margin-left: auto;
@@ -728,6 +740,24 @@ path {
   text-align: center;
   color: var(--main-text-color);
 }
+@media screen and (min-width: 480px) {
+  .form-titel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
 
 .form__label {
   font-family: var(--main-font);
@@ -744,6 +774,12 @@ path {
   width: 448px;
   height: 58px;
 }
+@media screen and (min-width: 480px) {
+  .form__input-blok {
+    width: 370px;
+    height: 58px;
+  }
+}
 
 .form__input {
   outline: none;
@@ -754,6 +790,12 @@ path {
   border-radius: 4px;
   -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (min-width: 480px) {
+  .form__input {
+    width: 370px;
+    height: 40px;
+  }
 }
 
 .form__input:hover + .form__icon,
@@ -782,6 +824,12 @@ path {
   /* height: 138px; */
   margin-bottom: 20px;
 }
+@media screen and (min-width: 480px) {
+  .form__textarea-blok {
+    width: 370px;
+    height: 138px;
+  }
+}
 
 .form__textarea {
   outline: none;
@@ -795,6 +843,12 @@ path {
   /* margin-bottom: 20px; */
   -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (min-width: 480px) {
+  .form__textarea {
+    width: 370px;
+    height: 120px;
+  }
 }
 
 .form__textarea:focus {
@@ -862,6 +916,12 @@ path {
   /* appearance: none;
   position: absolute; */
 }
+@media screen and (min-width: 480px) {
+  .form__checkbox-input {
+    width: 370px;
+    height: 15px;
+  }
+}
 
 .form__checkbox-label {
   display: -webkit-box;
@@ -881,6 +941,11 @@ path {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
   margin-bottom: 20px;
+}
+@media screen and (min-width: 480px) {
+  .form__checkbox-label {
+    font-size: 12px;
+  }
 }
 
 .form__checkbox-label-text {
