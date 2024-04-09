@@ -1923,7 +1923,7 @@ path {
 
 @media screen and (max-width: 479px) {
   .regular-customers__item {
-    width: calc((100% - 90px) / 3);
+    width: calc((100% - 60px) / 2);
     height: 92px;
     margin: 5px;
   }
