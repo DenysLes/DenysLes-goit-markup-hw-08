@@ -4,13 +4,14 @@
   margin-right: auto;
   margin-left: auto;
 
-  @media screen and (max-width: 479px) {
-  }
+  // @media screen and (max-width: 479px) {
+  // }
   @include mq(mobile) {
     // width: 480px;
     // height: 400px;
     margin-left: auto;
     margin-right: auto;
+    background-repeat: no-repeat;
 
     background-image: url(../images/Hero/img\ overlay480px.png),
       url(../images/Hero/Header\ img480px.jpg);
@@ -48,10 +49,10 @@
 }
 
 .hero-container {
-  @media screen and (max-width: 479px) {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
+  // @media screen and (max-width: 479px) {
+  //   padding-top: 100px;
+  //   padding-bottom: 100px;
+  // }
   @media screen and (min-width: 480px) {
     width: 480px;
     padding-top: 100px;
@@ -86,8 +87,8 @@
   font-family: var(--main-font);
 
   margin-bottom: 30px;
-  @media screen and (max-width: 479px) {
-  }
+  // @media screen and (max-width: 479px) {
+  // }
   @media screen and (min-width: 480px) {
     width: 360px;
   }
@@ -117,8 +118,8 @@
     background-color: #1875c1;
   }
 
-  @media screen and (max-width: 479px) {
-  }
+  // @media screen and (max-width: 479px) {
+  // }
   @media screen and (min-width: 480px) {
   }
 
