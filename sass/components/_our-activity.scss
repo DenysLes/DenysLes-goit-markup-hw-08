@@ -194,12 +194,22 @@
 }
 
 .our-activity__detail-text {
+  @media screen and (min-width: 480px) {
+    font-size: 14px;
+    line-height: 1.71;
+    width: 450px;
+
+    color: var(--secondary-text-color);
+
+    letter-spacing: 0.42px;
+  }
   @media screen and (min-width: 768px) {
     font-size: 14px;
     line-height: 1.71;
     width: 354px;
 
     color: var(--secondary-text-color);
+
     letter-spacing: 0.42px;
   }
   @media screen and (min-width: 1200px) {
@@ -233,6 +243,15 @@
 .our-activity__punctuality-text {
   // @media screen and (max-width: 479px) {
   // }
+  @media screen and (min-width: 480px) {
+    font-size: 14px;
+    line-height: 1.71;
+    width: 450px;
+
+    color: var(--secondary-text-color);
+
+    letter-spacing: 0.42px;
+  }
   @media screen and (min-width: 768px) {
     font-size: 14px;
     line-height: 1.71;
@@ -273,6 +292,15 @@
   @media screen and (max-width: 479px) {
     text-align: center;
   }
+  @media screen and (min-width: 480px) {
+    font-size: 14px;
+    line-height: 1.71;
+    width: 450px;
+
+    color: var(--secondary-text-color);
+
+    letter-spacing: 0.42px;
+  }
   @media screen and (min-width: 768px) {
     font-size: 14px;
     line-height: 1.71;
@@ -289,7 +317,7 @@
 
 .our-activity__technologie-item {
   font-size: 14px;
-  width: 270px;
+  // width: 270px;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.42px;
@@ -318,6 +346,13 @@
   }
   @media screen and (min-width: 480px) {
     text-align: left;
+    font-size: 14px;
+    line-height: 1.71;
+    width: 450px;
+
+    color: var(--secondary-text-color);
+
+    letter-spacing: 0.42px;
   }
   @media screen and (min-width: 768px) {
     font-size: 14px;

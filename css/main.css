@@ -1276,6 +1276,15 @@ path {
   }
 }
 
+@media screen and (min-width: 480px) {
+  .our-activity__detail-text {
+    font-size: 14px;
+    line-height: 1.71;
+    width: 450px;
+    color: var(--secondary-text-color);
+    letter-spacing: 0.42px;
+  }
+}
 @media screen and (min-width: 768px) {
   .our-activity__detail-text {
     font-size: 14px;
@@ -1319,6 +1328,15 @@ path {
   }
 }
 
+@media screen and (min-width: 480px) {
+  .our-activity__punctuality-text {
+    font-size: 14px;
+    line-height: 1.71;
+    width: 450px;
+    color: var(--secondary-text-color);
+    letter-spacing: 0.42px;
+  }
+}
 @media screen and (min-width: 768px) {
   .our-activity__punctuality-text {
     font-size: 14px;
@@ -1366,6 +1384,15 @@ path {
 @media screen and (max-width: 479px) {
   .our-activity__diligence-text {
     text-align: center;
+  }
+}
+@media screen and (min-width: 480px) {
+  .our-activity__diligence-text {
+    font-size: 14px;
+    line-height: 1.71;
+    width: 450px;
+    color: var(--secondary-text-color);
+    letter-spacing: 0.42px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1386,7 +1413,6 @@ path {
 
 .our-activity__technologie-item {
   font-size: 14px;
-  width: 270px;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.42px;
@@ -1424,6 +1450,11 @@ path {
 @media screen and (min-width: 480px) {
   .our-activity__technologies-text {
     text-align: left;
+    font-size: 14px;
+    line-height: 1.71;
+    width: 450px;
+    color: var(--secondary-text-color);
+    letter-spacing: 0.42px;
   }
 }
 @media screen and (min-width: 768px) {
