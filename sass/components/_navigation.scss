@@ -7,17 +7,13 @@
   }
   @media screen and (min-width: 768px) {
     display: block;
-    margin-right: auto;
   }
 }
 
 .navigation-list {
-  // display: flex;
-  // align-items: center;
   @media screen and (min-width: 768px) {
     display: flex;
     align-items: center;
-    margin-right: auto;
   }
 }
 
@@ -62,7 +58,6 @@
 }
 
 .navigation-link-nav {
-  margin-right: auto;
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;

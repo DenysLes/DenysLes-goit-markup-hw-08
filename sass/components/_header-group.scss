@@ -1,7 +1,7 @@
 .header__list-contact {
-  margin-left: auto;
   display: flex;
   align-items: center;
+  margin-left: auto;
   // justify-content: center;
   @media screen and (max-width: 479px) {
     display: none;
@@ -13,14 +13,11 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-
-    margin-left: auto;
   }
   @media screen and (min-width: 1200px) {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    margin-left: auto;
   }
 }
 
@@ -35,13 +32,12 @@
     display: block;
     margin-bottom: 10px;
     margin-right: 0;
-  }
-  @media screen and (min-width: 1200px) {
-    margin-right: 50px;
 
     &:last-child {
-      margin-right: 0;
+      margin-bottom: 0;
     }
+  }
+  @media screen and (min-width: 1200px) {
   }
 }
 
