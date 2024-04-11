@@ -1,5 +1,5 @@
 .footer {
-  width: 1600px;
+  // width: 1600px;
   padding-top: 60px;
   padding-bottom: 60px;
 
@@ -16,6 +16,10 @@
   @media screen and (max-width: 479px) {
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
   }
   @media screen and (min-width: 480px) {
     width: 480px;
@@ -42,6 +46,13 @@
 }
 
 .footer-main-container {
+  @media screen and (max-width: 479px) {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+  }
   // margin-right: 70px;
   @media screen and (min-width: 480px) {
     display: flex;
@@ -99,6 +110,9 @@
   letter-spacing: 0.42px;
 
   margin-bottom: 9px;
+  @media screen and (max-width: 479px) {
+    text-align: center;
+  }
 
   @media screen and (min-width: 480px) {
     text-align: center;
@@ -110,6 +124,9 @@
 
 .address__footer-contacts {
   text-align: left;
+  @media screen and (max-width: 479px) {
+    text-align: center;
+  }
 
   @media screen and (min-width: 480px) {
     text-align: center;

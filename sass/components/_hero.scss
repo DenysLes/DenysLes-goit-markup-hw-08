@@ -9,6 +9,10 @@
     url(../images/Hero/bg-hero.jpg);
 
   // @media screen and (max-width: 479px) {
+  // @include mq(retina) {
+  //   background-image: url(../images/Hero/Img\ Overlay.png),
+  //     url(../images/Hero/bg-hero@2x.jpg);
+  // }
   // }
   @include mq(mobile) {
     @include mq(retina) {
@@ -32,10 +36,10 @@
 }
 
 .hero-container {
-  // @media screen and (max-width: 479px) {
-  //   padding-top: 100px;
-  //   padding-bottom: 100px;
-  // }
+  @media screen and (max-width: 479px) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
   @media screen and (min-width: 480px) {
     width: 480px;
     padding-top: 100px;

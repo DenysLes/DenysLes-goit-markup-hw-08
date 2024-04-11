@@ -1,5 +1,5 @@
 .team {
-  max-width: 1600px;
+  // max-width: 1600px;
   background: var(--secondary-bg-color);
   margin-right: auto;
   margin-left: auto;
@@ -21,11 +21,12 @@
   }
 }
 
-.team-name {
-  @media screen and (min-width: 1200px) {
-    margin-bottom: 10px;
-  }
-}
+// .team-name {
+//   @media screen and (min-width: 1200px) {
+//     width: 1200px;
+//     margin-bottom: 10px;
+//   }
+// }
 
 .team-proffesion {
   @media screen and (min-width: 1200px) {
