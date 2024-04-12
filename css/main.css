@@ -354,11 +354,12 @@ img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
   }
 }
 
@@ -382,6 +383,16 @@ img {
     margin-bottom: 0;
   }
 }
+@media screen and (min-width: 1200px) {
+  .header__group-link {
+    margin-right: 30px;
+    margin-bottom: 0;
+  }
+  .header__group-link:last-child {
+    margin-right: 0;
+  }
+}
+
 .header__link-mail {
   text-decoration: none;
   font-family: var(--main-font);
