@@ -37,14 +37,12 @@ body {
 }
 @media screen and (min-width: 768px) {
   .section {
-    width: 768px;
     padding-top: 60px;
     padding-bottom: 60px;
   }
 }
 @media screen and (min-width: 1200px) {
   .section {
-    width: 1200px;
     padding-top: 94px;
     padding-bottom: 94px;
   }
@@ -1540,19 +1538,12 @@ path {
 
 .team {
   background: var(--secondary-bg-color);
-  margin-right: auto;
-  margin-left: auto;
 }
 @media screen and (max-width: 479px) {
   .team {
     padding: 0 15px;
     padding-bottom: 60px;
     padding-top: 60px;
-  }
-}
-@media screen and (min-width: 480px) {
-  .team {
-    padding-bottom: 60px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -2411,7 +2402,7 @@ path {
 }
 @media screen and (max-width: 479px) {
   .footer-form__mail-input {
-    width: 300px;
+    width: 280px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
