@@ -163,9 +163,11 @@
 .our-activity__detail-item {
   @media screen and (max-width: 479px) {
     text-align: center;
+    margin-bottom: 10px;
   }
   @media screen and (min-width: 480px) {
     text-align: center;
+    margin-bottom: 10px;
   }
   @media screen and (min-width: 768px) {
     text-align: left;
@@ -175,18 +177,8 @@
     line-height: normal;
     letter-spacing: 0.42px;
     text-transform: uppercase;
-
-    margin-bottom: 10px;
   }
   @media screen and (min-width: 768px) and (max-width: 1119px) {
-    text-align: left;
-    width: 270px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: normal;
-    letter-spacing: 0.42px;
-    text-transform: uppercase;
-
     margin-bottom: 10px;
   }
   @media screen and (min-width: 1200px) {
@@ -221,9 +213,11 @@
 .our-activity__punctuality-item {
   @media screen and (max-width: 479px) {
     text-align: center;
+    margin-bottom: 10px;
   }
   @media screen and (min-width: 480px) {
     text-align: center;
+    margin-bottom: 10px;
   }
   @media screen and (min-width: 768px) {
     text-align: left;
@@ -233,8 +227,6 @@
     line-height: normal;
     letter-spacing: 0.42px;
     text-transform: uppercase;
-
-    margin-bottom: 10px;
   }
   @media screen and (min-width: 1200px) {
     width: 270px;
@@ -242,8 +234,8 @@
 }
 
 .our-activity__punctuality-text {
-  // @media screen and (max-width: 479px) {
-  // }
+  @media screen and (max-width: 479px) {
+  }
   @media screen and (min-width: 480px) {
     font-size: 14px;
     line-height: 1.71;
@@ -268,9 +260,11 @@
 .our-activity__diligence-item {
   @media screen and (max-width: 479px) {
     text-align: center;
+    margin-bottom: 10px;
   }
   @media screen and (min-width: 480px) {
     text-align: center;
+    margin-bottom: 10px;
   }
   @media screen and (min-width: 768px) {
     text-align: left;
@@ -280,11 +274,9 @@
     line-height: normal;
     letter-spacing: 0.42px;
     text-transform: uppercase;
-
-    margin-bottom: 10px;
   }
   @media screen and (min-width: 1200px) {
-    text-align: left;
+    // text-align: left;
     width: 270px;
   }
 }
@@ -317,24 +309,24 @@
 }
 
 .our-activity__technologie-item {
-  font-size: 14px;
-  // width: 270px;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.42px;
-  text-transform: uppercase;
-
-  margin-bottom: 10px;
   @media screen and (max-width: 479px) {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
   }
   @media screen and (min-width: 480px) {
     text-align: center;
+    margin-bottom: 10px;
   }
   @media screen and (min-width: 768px) {
     text-align: left;
+    font-size: 14px;
+    // width: 270px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
   }
   @media screen and (min-width: 1200px) {
     width: 270px;
