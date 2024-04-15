@@ -39,6 +39,8 @@
   @media screen and (max-width: 479px) {
     padding-top: 100px;
     padding-bottom: 100px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
   @media screen and (min-width: 480px) {
     width: 480px;
@@ -74,8 +76,9 @@
   font-family: var(--main-font);
 
   margin-bottom: 30px;
-  // @media screen and (max-width: 479px) {
-  // }
+  @media screen and (max-width: 479px) {
+    font-size: 20px;
+  }
   @media screen and (min-width: 480px) {
     width: 360px;
   }
