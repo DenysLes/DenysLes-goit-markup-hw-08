@@ -2667,6 +2667,11 @@ path {
 .menu-container__item-nav {
   margin-bottom: 32px;
 }
+@media screen and (max-width: 479px) {
+  .menu-container__item-nav {
+    margin-bottom: 20px;
+  }
+}
 
 .menu-container__link-nav-accent {
   text-decoration: none;
@@ -2698,6 +2703,11 @@ path {
 
 .menu-container__item-contacts {
   margin-bottom: 32px;
+}
+@media screen and (max-width: 479px) {
+  .menu-container__item-contacts {
+    margin-bottom: 20px;
+  }
 }
 
 .menu-container__link-contacts {

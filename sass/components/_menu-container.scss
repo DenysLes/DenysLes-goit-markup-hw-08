@@ -74,6 +74,9 @@
 }
 .menu-container__item-nav {
   margin-bottom: 32px;
+  @media screen and (max-width: 479px) {
+    margin-bottom: 20px;
+  }
 }
 .menu-container__link-nav-accent {
   text-decoration: none;
@@ -106,6 +109,9 @@
 
 .menu-container__item-contacts {
   margin-bottom: 32px;
+  @media screen and (max-width: 479px) {
+    margin-bottom: 20px;
+  }
 }
 
 .menu-container__link-contacts {
