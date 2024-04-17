@@ -5,7 +5,7 @@
   background-repeat: no-repeat;
   margin-right: auto;
   margin-left: auto;
-  background-image: url(../images/Hero/Img\ Overlay.png),
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4)),
     url(../images/Hero/bg-hero.jpg);
 
   // @media screen and (max-width: 479px) {
@@ -16,21 +16,20 @@
   // }
   @include mq(mobile) {
     @include mq(retina) {
-      background-image: url(../images/Hero/img\ overlay480px.png),
+      background-image: background rgba(47, 48, 58, 0.4),
         url(../images/Hero/Header\ img480px@2x.jpg);
     }
   }
 
   @include mq(tablet) {
     @include mq(retina) {
-      background-image: url(../images/Hero/img\ overlay768px.png),
+      background-image: background rgba(47, 48, 58, 0.4),
         url(../images/Hero/Header\ img768px@2x.jpg);
     }
   }
   @include mq(desktop) {
     @include mq(retina) {
-      background-image: url(../images/Hero/Img\ Overlay.png),
-        url(../images/Hero/bg-hero@2x.jpg);
+      background-image: url(../images/Hero/bg-hero@2x.jpg);
     }
   }
 }
