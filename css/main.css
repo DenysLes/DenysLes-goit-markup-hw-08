@@ -195,6 +195,12 @@ img {
   background-color: var(--main-bg-color);
   border-bottom: 1px solid #ececec;
 }
+@media screen and (max-width: 479px) {
+  .header {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
 @media screen and (min-width: 480px) {
   .header {
     width: 480px;
