@@ -262,6 +262,10 @@
     border-color: var(--accent-color);
     background-color: var(--accent-color);
   }
+  @media screen and (max-width: 479px) {
+    width: 16px;
+    height: 11px;
+  }
 }
 
 .form__checkbox-input:focus + .form__checkbox-icon {
