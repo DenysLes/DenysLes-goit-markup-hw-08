@@ -516,6 +516,18 @@ img {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4))), url(../images/Hero/bg-hero-l.jpg);
   background-image: linear-gradient(rgba(47, 48, 58, 0.4)), url(../images/Hero/bg-hero-l.jpg);
 }
+@media screen and (max-width: 479px) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4))), url(../images/Hero/hero-bg-s-img480px.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4)), url(../images/Hero/hero-bg-s-img480px.jpg);
+  }
+}
+@media screen and (max-width: 479px) and (min-device-pixel-ratio: 2), screen and (max-width: 479px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 479px) and (min-resolution: 192dpi), screen and (max-width: 479px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4))), url(../images/Hero/hero-bg-s-img480px@2x.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4)), url(../images/Hero/hero-bg-s-img480px@2x.jpg);
+  }
+}
 @media screen and (min-width: 480px) {
   .hero {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4))), url(../images/Hero/hero-bg-s-img480px.jpg);
@@ -1645,6 +1657,10 @@ path {
   .team {
     padding-top: 94px;
   }
+}
+
+.team-name {
+  margin-bottom: 10px;
 }
 
 @media screen and (min-width: 1200px) {

@@ -8,12 +8,14 @@
   background-image: linear-gradient(rgba(47, 48, 58, 0.4)),
     url(../images/Hero/bg-hero-l.jpg);
 
-  // @media screen and (max-width: 479px) {
-  // @include mq(retina) {
-  //   background-image: url(../images/Hero/Img\ Overlay.png),
-  //     url(../images/Hero/bg-hero@2x.jpg);
-  // }
-  // }
+  @media screen and (max-width: 479px) {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4)),
+      url(../images/Hero/hero-bg-s-img480px.jpg);
+    @include mq(retina) {
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4)),
+        url(../images/Hero/hero-bg-s-img480px@2x.jpg);
+    }
+  }
 
   @include mq(mobile) {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4)),
